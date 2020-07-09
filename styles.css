@@ -1,15 +1,51 @@
-#round-field{
+.round-field{
     margin: none;
     border-radius: 24px 24px 24px 24px;
     padding: 20px; 
     width: 582px;
     height: 39px; 
-    padding-left: 14px;
+    padding-left: 50px;
     padding-top: 5px;
     padding-right: 8px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     border: 0.5px solid #dfe1e5;
+    text-align: left;
+    position: absolute;
+    left: 33em;
+    top: 16em;
 }
-#round-field:hover{
+.round-field:hover{
     box-shadow: 1px 0.5px 0.5px 0.5px #e1e2e4;
 }
+
+.button{
+    transition-duration: 0s;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min width: 54px;
+    text-align: center;
+    cursor: pointer;
+    background-color:#f2f2f2;
+    position: relative;
+    left: 46em;
+    top: 7em;
+}
+
+.button:hover{
+    color: rgb(46, 45, 45);
+    border-color: rgb(46, 45, 45);
+    border: 0.5px solid grey;
+}
+
+.logo{
+    position: relative;
+    left: 41em;
+    padding-top: 109px;
+}
+
