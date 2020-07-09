@@ -1,0 +1,15 @@
+#round-field{
+    margin: none;
+    border-radius: 24px 24px 24px 24px;
+    padding: 20px; 
+    width: 582px;
+    height: 39px; 
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    border: 0.5px solid #dfe1e5;
+}
+#round-field:hover{
+    box-shadow: 1px 0.5px 0.5px 0.5px #e1e2e4;
+}
